@@ -18,6 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.setApplicationId("n0hSurv2LlnCefeuPN2uQmSAwwd5bPsmfhK40anj", clientKey: "kWEL6AN5YfQ23KjYdZC41lATqlhdWfnz3qOhn7ML")
         
+        if PFUser.currentUser() != nil {
+            var storyboard = UIStoryboard(name: "Main", bundle: nil)
+            var vc = storyboard.instantiateViewControllerWithIdentifier("MessageNavigationController") as! UIViewController
+            window?.rootViewController = vc
+        }
+        
         return true
     }
 

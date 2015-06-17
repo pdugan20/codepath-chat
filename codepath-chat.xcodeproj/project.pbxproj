@@ -13,6 +13,8 @@
 		E71477231B3128430010C147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71477221B3128430010C147 /* Images.xcassets */; };
 		E71477321B3128430010C147 /* codepath_chatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71477311B3128430010C147 /* codepath_chatTests.swift */; };
 		E714773F1B31307A0010C147 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714773E1B31307A0010C147 /* LoginViewController.swift */; };
+		E71477441B3138370010C147 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71477431B3138370010C147 /* MessageViewController.swift */; };
+		E71477481B3139680010C147 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71477471B3139680010C147 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		E71477311B3128430010C147 /* codepath_chatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_chatTests.swift; sourceTree = "<group>"; };
 		E714773B1B312D890010C147 /* codepath-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "codepath-chat-Bridging-Header.h"; sourceTree = "<group>"; };
 		E714773E1B31307A0010C147 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E71477431B3138370010C147 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		E71477471B3139680010C147 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		E7E59925E7537A39756BFA43 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,7 @@
 			children = (
 				E714771B1B3128430010C147 /* AppDelegate.swift */,
 				E714771F1B3128430010C147 /* Main.storyboard */,
+				E71477491B3139720010C147 /* Cells */,
 				E71477401B31307D0010C147 /* View Controllers */,
 				E71477221B3128430010C147 /* Images.xcassets */,
 				E71477191B3128430010C147 /* Supporting Files */,
@@ -139,8 +144,17 @@
 			isa = PBXGroup;
 			children = (
 				E714773E1B31307A0010C147 /* LoginViewController.swift */,
+				E71477431B3138370010C147 /* MessageViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E71477491B3139720010C147 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E71477471B3139680010C147 /* MessageCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E714773F1B31307A0010C147 /* LoginViewController.swift in Sources */,
+				E71477481B3139680010C147 /* MessageCell.swift in Sources */,
+				E71477441B3138370010C147 /* MessageViewController.swift in Sources */,
 				E714771C1B3128430010C147 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
