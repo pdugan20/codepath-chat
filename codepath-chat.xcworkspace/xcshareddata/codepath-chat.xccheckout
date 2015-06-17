@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C1CB6B63-45C6-4336-90ED-FB28C17F0D86</string>
+	<key>IDESourceControlProjectName</key>
+	<string>codepath-chat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F99AF14F997A6C53F7C731E150BD1C0D543BAE8B</key>
+		<string>https://github.com/pdugan20/codepath-chat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>codepath-chat.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F99AF14F997A6C53F7C731E150BD1C0D543BAE8B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pdugan20/codepath-chat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F99AF14F997A6C53F7C731E150BD1C0D543BAE8B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F99AF14F997A6C53F7C731E150BD1C0D543BAE8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>codepath-chat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

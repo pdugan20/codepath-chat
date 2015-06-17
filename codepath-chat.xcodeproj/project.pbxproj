@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		5E1C1C38E192602C0F17F82A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8EAEE8C9BC13DF9156F50D /* libPods.a */; };
 		E714771C1B3128430010C147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714771B1B3128430010C147 /* AppDelegate.swift */; };
-		E714771E1B3128430010C147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714771D1B3128430010C147 /* ViewController.swift */; };
 		E71477211B3128430010C147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E714771F1B3128430010C147 /* Main.storyboard */; };
 		E71477231B3128430010C147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71477221B3128430010C147 /* Images.xcassets */; };
-		E71477261B3128430010C147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71477241B3128430010C147 /* LaunchScreen.xib */; };
 		E71477321B3128430010C147 /* codepath_chatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71477311B3128430010C147 /* codepath_chatTests.swift */; };
+		E714773F1B31307A0010C147 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E714773E1B31307A0010C147 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		E71477161B3128430010C147 /* codepath-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "codepath-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E714771A1B3128430010C147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E714771B1B3128430010C147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E714771D1B3128430010C147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E71477201B3128430010C147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E71477221B3128430010C147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E71477251B3128430010C147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E714772B1B3128430010C147 /* codepath-chatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "codepath-chatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71477301B3128430010C147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E71477311B3128430010C147 /* codepath_chatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepath_chatTests.swift; sourceTree = "<group>"; };
 		E714773B1B312D890010C147 /* codepath-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "codepath-chat-Bridging-Header.h"; sourceTree = "<group>"; };
+		E714773E1B31307A0010C147 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E7E59925E7537A39756BFA43 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,10 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				E714771B1B3128430010C147 /* AppDelegate.swift */,
-				E714771D1B3128430010C147 /* ViewController.swift */,
 				E714771F1B3128430010C147 /* Main.storyboard */,
+				E71477401B31307D0010C147 /* View Controllers */,
 				E71477221B3128430010C147 /* Images.xcassets */,
-				E71477241B3128430010C147 /* LaunchScreen.xib */,
 				E71477191B3128430010C147 /* Supporting Files */,
 				E714773B1B312D890010C147 /* codepath-chat-Bridging-Header.h */,
 			);
@@ -136,6 +133,14 @@
 				E71477301B3128430010C147 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E71477401B31307D0010C147 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E714773E1B31307A0010C147 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71477211B3128430010C147 /* Main.storyboard in Resources */,
-				E71477261B3128430010C147 /* LaunchScreen.xib in Resources */,
 				E71477231B3128430010C147 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E714771E1B3128430010C147 /* ViewController.swift in Sources */,
+				E714773F1B31307A0010C147 /* LoginViewController.swift in Sources */,
 				E714771C1B3128430010C147 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +307,6 @@
 				E71477201B3128430010C147 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E71477241B3128430010C147 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E71477251B3128430010C147 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
