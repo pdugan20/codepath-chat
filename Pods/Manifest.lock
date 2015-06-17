@@ -1,0 +1,61 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.2.0):
+    - Bolts/AppLinks (= 1.2.0)
+    - Bolts/Tasks (= 1.2.0)
+  - Bolts/AppLinks (1.2.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.0)
+  - FBSDKCoreKit (4.2.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.2.0)
+    - FBSDKCoreKit/no-arc (= 4.2.0)
+  - FBSDKCoreKit/arc (4.2.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.2.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.2.0):
+    - FBSDKCoreKit
+  - Parse (1.7.4):
+    - Bolts/Tasks (>= 1.1.5)
+  - ParseFacebookUtilsV4 (1.7.4):
+    - Bolts/Tasks (>= 1.1.5)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+    - Parse (~> 1.7.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Parse
+  - ParseFacebookUtilsV4
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  FBSDKCoreKit: 84b3616a361801f190e43a9909caead7bb6087c7
+  FBSDKLoginKit: 57e37106af12c9e264e473dcb75d7decdbb07fe4
+  Parse: 6ca512c6e860b66739c95151b2f76ac4712b7842
+  ParseFacebookUtilsV4: 481ea7b00f8f62440c314ac7f80eada228bf7488
+
+COCOAPODS: 0.37.2
